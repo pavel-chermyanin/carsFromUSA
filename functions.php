@@ -14,9 +14,10 @@ add_action( 'wp_enqueue_scripts', function () {
 //   <script src="js/slick.min.js"></script>
 //   <script src="js/jquery.fancybox.min.js"></script>
 //   <script src="js/main.js"></script> -->
+	wp_deregister_script( 'jquery' );
+	wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js');
 
-
-	wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js', array('jquery'), 'null', true );
+	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'slick', get_template_directory_uri() . '/assets/js/slick.min.js', array('jquery'), 'null', true );
 	wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/assets/js/jquery.fancybox.min.js', array('jquery'), 'null', true );
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), 'null', true );
