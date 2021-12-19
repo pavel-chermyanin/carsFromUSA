@@ -3,23 +3,23 @@
 // правильный способ подключить стили и скрипты
 
 add_action( 'wp_enqueue_scripts', function () {
+	// Подключаем стили
 	wp_enqueue_style( 'fonts-gstatic', 'https://fonts.gstatic.com' );
 	wp_enqueue_style( 'fonts', 'https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap' );
 	wp_enqueue_style( 'reset', get_template_directory_uri() . '/assets/css/reset.css' );
 	wp_enqueue_style( 'slick', get_template_directory_uri() . '/assets/css/slick.css' );
-	wp_enqueue_style( 'fancybox', get_template_directory_uri() . '/assets/css/jquery.fancybox.css' );
+	wp_enqueue_style( 'animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' );
 	wp_enqueue_style( 'style', get_template_directory_uri() . '/assets/css/style.css' );
 	
-//   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-//   <script src="js/slick.min.js"></script>
-//   <script src="js/jquery.fancybox.min.js"></script>
-//   <script src="js/main.js"></script> -->
+	// Отменяем зарегистрированный jquery
 	wp_deregister_script( 'jquery' );
+	// Регистрируем jquery
 	wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js');
-
+	// Подключаме jquery
 	wp_enqueue_script( 'jquery' );
+	// Подключаем скрипты
 	wp_enqueue_script( 'slick', get_template_directory_uri() . '/assets/js/slick.min.js', array('jquery'), 'null', true );
-	wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/assets/js/jquery.fancybox.min.js', array('jquery'), 'null', true );
+	wp_enqueue_script( 'wow', get_template_directory_uri() . '/assets/js/wow.js', array('jquery'), 'null', true );
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), 'null', true );
 } );
 

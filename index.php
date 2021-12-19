@@ -5,7 +5,7 @@
   
   <section class="services">
     <div class="container">
-      <h2 class="title">
+      <h2 class="title"   >
         НАШИ УСЛУГИ
       </h2>
       <div class="services__inner">
@@ -42,37 +42,37 @@
           </div>
         </div>
         <ol class="services__list">
-          <li class="services__item">
+          <li class="services__item wow animate__animated animate__fadeInRight" data-wow-offset="80">
             <p class="services__item-title">Покупка авто</p>
             <p class="services__item-text">
               Подбор автомобиля и экспертная проверка
             </p>
           </li>
-          <li class="services__item">
+          <li class="services__item wow animate__animated animate__fadeInRight" data-wow-offset="80">
             <p class="services__item-title">Доставка морем</p>
             <p class="services__item-text">
               Расчет оптимальной стоимости доставки авто
             </p>
           </li>
-          <li class="services__item">
+          <li class="services__item wow animate__animated animate__fadeInRight" data-wow-offset="80">
             <p class="services__item-title">Растаможка авто</p>
             <p class="services__item-text">
               Прохождение таможенного оформления (2-3 дня)
             </p>
           </li>
-          <li class="services__item">
+          <li class="services__item wow animate__animated animate__fadeInRight" data-wow-offset="80">
             <p class="services__item-title">Ремонт авто</p>
             <p class="services__item-text">
               Комплексный ремонт автомобиля на СТО
             </p>
           </li>
-          <li class="services__item">
+          <li class="services__item wow animate__animated animate__fadeInRight" data-wow-offset="80">
             <p class="services__item-title">Сертификация</p>
             <p class="services__item-text">
               Услуга предоставляется по желанию
             </p>
           </li>
-          <li class="services__item">
+          <li class="services__item wow animate__animated animate__fadeInRight" data-wow-offset="80">
             <p class="services__item-title">Постановка на учет</p>
             <p class="services__item-text">
               Оформление автомобиля в Украине

@@ -24,7 +24,7 @@
         </a>
       </div>
       <div class="header__content">
-        <h1 class="header__title">авто из сша “под ключ”</h1>
+        <h1 class="header__title animate__animated animate__fadeInLeft" >авто из сша “под ключ”</h1>
         <h2 class="header__subtitle">
           ЗАКАЖИ СЕБЕ АВТО ИЗ США С ВЫГОДОЙ ДО 40%
         </h2>
