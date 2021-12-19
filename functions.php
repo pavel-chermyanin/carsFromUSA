@@ -23,8 +23,9 @@ add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), 'null', true );
 } );
 
+// Регистрируеm поддержку новых возможностей темы в WordPress (поддержка миниатюр, форматов записей и т.д.).
 add_theme_support( 'post-thumbnails');
 add_theme_support( 'title-tag' );
 add_theme_support( 'custom-logo' );
-
+ 
 ?>
