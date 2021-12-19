@@ -249,6 +249,7 @@ a{
     transition: all .5s;
 }
 .carousel__item-img {
+    object-fit: cover;
     max-width: 100%;
     margin-bottom: 23px;
 }
