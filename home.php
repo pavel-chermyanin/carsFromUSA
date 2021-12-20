@@ -151,7 +151,6 @@ Template Name: home
       	foreach( $myposts as $post ){
       		setup_postdata( $post );
       ?>
-            <!-- Вывода постов, функции цикла: the_title() и т.д. -->
             <div class="carousel__item">
                 <div class="carousel__item-box">
                     <!-- bloginfo() возвращает правильный путь к картинкам -->

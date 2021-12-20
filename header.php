@@ -35,19 +35,19 @@
                 </p>
                 <a class="button" href="#">КОНСУЛЬТАЦИЯ ЭКСПЕРТА</a>
                 <div class="social header__social">
-                    <a class="social__link" href="#">
+                    <a class="social__link" href="<?php the_field('instagram-link'); ?>">
                         <img class="social__img" src="<?php bloginfo("template_url"); ?>/assets/images/instagram.svg"
                             alt="instagram icon">
                     </a>
-                    <a class="social__link" href="#">
+                    <a class="social__link" href="<?php the_field('telegram-link'); ?>">
                         <img class="social__img" src="<?php bloginfo("template_url"); ?>/assets/images/telegram.svg"
                             alt="telegram icon">
                     </a>
-                    <a class="social__link" href="#">
+                    <a class="social__link" href="<?php the_field('whatsapp-link'); ?>">
                         <img class="social__img" src="<?php bloginfo("template_url"); ?>/assets/images/whatsapp.svg"
                             alt="whatsapp icon">
                     </a>
-                    <a class="social__link" href="#">
+                    <a class="social__link" href="<?php the_field('facebook-link'); ?>">
                         <img class="social__img" src="<?php bloginfo("template_url"); ?>/assets/images/facebook.svg"
                             alt="facebook icon">
                     </a>
