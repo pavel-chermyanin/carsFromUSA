@@ -52,7 +52,7 @@
                             alt="facebook icon">
                     </a>
                 </div>
-                <img class="header__images animate__animated animate__fadeInUp animate__delay-1s"
+                <img class="header__images animate__animated animate__fadeInUpBig animate__delay-1s"
                     src="<?php the_field("top-images"); ?>" alt="ford mustang">
             </div>
         </div>
